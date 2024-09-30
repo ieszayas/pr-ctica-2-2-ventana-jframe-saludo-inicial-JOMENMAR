@@ -27,9 +27,9 @@ Además deberán de hacerse las siguientes **validaciones** mostrando un cuadro 
 
 En todos los ejercicios debe de rellenarse una tabla con **casos de prueba** mínimos que cumpla el ejercicio dentro de la carpeta llamada *TEST* del repositorio:
 
-|ID Caso Prueba|Descripción Caso de Prueba                    |Entrada                    |Salida Esperada                                                                    |Resultado   |
-|--------------|----------------------------------------------|---------------------------|-----------------------------------------------------------------------------------|------------|
-|01            |Comprobación del botón "saluda"               |N/A                        |Aparece una ventana modal saludando con el nombre y apellidos introducidos                     |OK/No cumple|
-|02            |Validación de campos vacíos                   |sin texto                  |Aparece una ventana modal indicando que los campos no pueden estar vacíos          |OK/No cumple|
-|03            |Comprobación longitud de campos <5            |Texto <5                   |Aparece una ventana modal indicando que el nombre o apellidos no puede ser menor de 5 |OK/No cumple|
-|04            |Comprobación sin símbolos numéricos           |Texto con símbolo numérico |Aparece una ventana modal indicando que no puede haber símbolos numéricos          |OK/No cumple|
+|ID Caso Prueba|Descripción Caso de Prueba                    |Entrada                    |Salida Esperada                                                                  |Resultado|
+|--------------|----------------------------------------------|---------------------------|-----------------------------------------------------------------------------------|-------|
+|01            |Comprobación del botón "saluda"               |N/A                        |Aparece una ventana modal saludando con el nombre y apellidos Introducidos            |OK|
+|02            |Validación de campos vacíos                   |sin texto                  |Aparece una ventana modal indicando que los campos no pueden estar vacíos             |OK|
+|03            |Comprobación longitud de campos <5            |Texto <5                   |Aparece una ventana modal indicando que el nombre o apellidos no puede ser menor de 5 |OK|
+|04            |Comprobación sin símbolos numéricos           |Texto con símbolo numérico |Aparece una ventana modal indicando que no puede haber símbolos numéricos             |OK|
