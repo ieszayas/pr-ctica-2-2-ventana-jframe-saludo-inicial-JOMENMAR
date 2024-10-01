@@ -102,11 +102,14 @@ public class NewJFrame extends javax.swing.JFrame {
         // Validaciones
         if (nombreCompleto.isEmpty()) {
             JOptionPane.showMessageDialog(this, "Por favor, rellena el campo.", "Error", JOptionPane.ERROR_MESSAGE);
-        } else if (nombreCompleto.split(" ").length < 2) {
+        }
+        if (nombreCompleto.split(" ").length < 2) {
             JOptionPane.showMessageDialog(this, "Por favor, introduce al menos un nombre y un apellido.", "Error", JOptionPane.ERROR_MESSAGE);
-        } else if (nombreCompleto.length() < 5) {
+        }
+        if (nombreCompleto.length() < 5) {
             JOptionPane.showMessageDialog(this, "El nombre y apellidos deben tener al menos 5 caracteres en total.", "Error", JOptionPane.ERROR_MESSAGE);
-        } else if (!nombreCompleto.matches("[a-zA-ZáéíóúÁÉÍÓÚñÑ]+")) {
+        }
+        if (!nombreCompleto.matches("[a-zA-ZáéíóúÁÉÍÓÚñÑ]+")) {
             // Mensaje de error si hay números o símbolos
             JOptionPane.showMessageDialog(this, "El nombre no debe contener números ni símbolos.", "Error", JOptionPane.ERROR_MESSAGE);
         } else {
